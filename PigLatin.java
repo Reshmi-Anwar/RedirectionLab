@@ -8,6 +8,8 @@ public class PigLatin{
     return (s.substring(1) + s.charAt(0) + "ay");
   }
   public static String pigLatin(String s){
-    
+    s = s.toLowerCase();
+    String[] listOfDigraphs = {"bl", "br", "ch", "ck", "cl", "cr", "dr", "fl", "fr", "gh", "gl", "gr", "ng", "ph", "pl", "pr", "qu", "sc", "sh", "sk", "sl", "sm", "sn", "sp", "st", "sw", "th", "tr", "tw", "wh", "wr"};
   }
+
 }
