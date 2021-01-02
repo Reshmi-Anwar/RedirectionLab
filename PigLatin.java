@@ -7,4 +7,7 @@ public class PigLatin{
     }
     return (s.substring(1) + s.charAt(0) + "ay");
   }
+  public static String pigLatin(String s){
+    
+  }
 }
