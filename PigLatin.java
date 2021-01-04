@@ -21,7 +21,10 @@ public class PigLatin{
     }
     return pigLatinSimple(s);
   }
-
+  public static String pigLatinBest(String s){
+    s = s.toLowerCase();
+  }
+  /*
   public static void main(String[] args){
     System.out.println(pigLatin("the"));
     System.out.println(pigLatin("check"));
@@ -29,5 +32,6 @@ public class PigLatin{
     System.out.println(pigLatin("emu"));
     System.out.println(pigLatin("grade"));
   }
+  */
 
 }
